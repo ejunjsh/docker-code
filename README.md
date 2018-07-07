@@ -1,5 +1,5 @@
 # docker-code
-This is a place i record something about docker.
+This is a place where i record something about docker.
 
 # how to delete no need images and container?
 
