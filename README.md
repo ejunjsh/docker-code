@@ -6,6 +6,6 @@ This is a place where i record something about docker.
 	sudo docker container prune
 	sudo docker image prune	
 
-# see the stats of containers
+# monitor the stats of containers
 
 	sudo docker stats
