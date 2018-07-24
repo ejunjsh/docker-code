@@ -1,11 +1,7 @@
-# docker-code
-This is a place where i record something about docker.
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [docker-code](#docker-code)
 - [how to delete no need images and container?](#how-to-delete-no-need-images-and-container)
 - [monitor the stats of containers](#monitor-the-stats-of-containers)
 - [entrypoint-test](#entrypoint-test)
