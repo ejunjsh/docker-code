@@ -1,5 +1,23 @@
-# docker-code
-This is a place where i record something about docker.
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents** 
+
+- [how to delete no need images and container?](#how-to-delete-no-need-images-and-container)
+- [monitor the stats of containers](#monitor-the-stats-of-containers)
+- [entrypoint-test](#entrypoint-test)
+- [jdk6](#jdk6)
+- [jdk6-u23](#jdk6-u23)
+- [jdk7](#jdk7)
+- [jdk7-jetty](#jdk7-jetty)
+- [jdk7-hsdis](#jdk7-hsdis)
+- [jdk8](#jdk8)
+- [jdk8-mvn](#jdk8-mvn)
+- [kafka](#kafka)
+- [mysql](#mysql)
+- [zookeeper](#zookeeper)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 # how to delete no need images and container?
 
@@ -71,7 +89,7 @@ a image include jdk8 and maven,
 
 	sudo docker run sjj050121014/jdk8-mvn:1.0
 
-then return a bash where you can run `java` or related command.
+then return a bash where you can run `java` or `mvn` command.
 
 # kafka
 
@@ -79,7 +97,9 @@ a image for kafka cluster,
 
 	sudo docker run sjj050121014/kafka:1.0
 
-you pass different environment parameter `broker` `zk` to start up this container, 
+it supports below enviroment parameters:
+* `broker` : unique id in the cluster
+* `zk` : zookeeper address or hostname.
 
 # mysql
 
@@ -88,3 +108,10 @@ run
 	sudo docker-compose up
 
 then open browser to `http://<host ip>:8080`,login in with `root/example`, you will see the management page of mysql, and test your sql code ,or some test case about mysql.
+
+
+# zookeeper
+
+a image for zookeeper
+
+	sudo docker run sjj050121014/zookeeper:1.0
