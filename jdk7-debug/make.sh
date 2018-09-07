@@ -2,6 +2,7 @@
 export LANG=C
 #Bootstrap JDK的安装路径。必须设置
 export ALT_BOOTDIR=/usr/lib/jvm/java-6-openjdk-amd64/
+export ALT_JDK_IMPORT_PATH=/usr/lib/jvm/java-6-openjdk-amd64/
 
 #允许自动下载依赖
 export ALLOW_DOWNLOADS=true
