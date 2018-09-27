@@ -105,6 +105,7 @@ it supports below enviroment parameters:
 
 run
 
+	cd mysql
 	sudo docker-compose up
 
 then open browser to `http://<host ip>:8080`,login in with `root/example`, you will see the management page of mysql, and test your sql code ,or some test case about mysql.
