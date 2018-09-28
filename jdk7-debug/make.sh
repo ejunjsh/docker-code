@@ -49,4 +49,4 @@ unset CLASSPATH
 
 export DISABLE_HOTSPOT_OS_VERSION_CHECK=OK
 
-make 2>&1 | tee $ALT_OUTPUTDIR/build.log
+make 
