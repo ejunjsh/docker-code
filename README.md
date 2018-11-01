@@ -10,6 +10,7 @@
 - [jdk7](#jdk7)
 - [jdk7-jetty](#jdk7-jetty)
 - [jdk7-hsdis](#jdk7-hsdis)
+- [jdk7-debug](#jdk7-debug)
 - [jdk8](#jdk8)
 - [jdk8-mvn](#jdk8-mvn)
 - [kafka](#kafka)
@@ -72,6 +73,14 @@ then return a bash where you can run `java` or related command.
 a image include jdk7 and hsdis envirnment,
 
 	sudo docker run sjj050121014/jdk7-hsdis:1.0
+
+then return a bash where you can run `java` or related command.
+
+# jdk7-debug
+
+a image include jdk7 debug envirnment,
+
+	sudo docker run sjj050121014/jdk7-debug:1.0
 
 then return a bash where you can run `java` or related command.
 
